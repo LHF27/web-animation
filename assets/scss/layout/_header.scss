@@ -1,4 +1,16 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.headerLogo h1 a {
+  background-image: url(/assets/images/URBNSTEP.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.header-a-hover {
+    display: block; 
+}
+.header-a-hover:hover{
+  transform: scale(1.25);
 }
